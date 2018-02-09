@@ -2,9 +2,9 @@
 
 .fullp {
     height: 90vh;
-    width: 90vw;
     margin-top: 5vh;
-    margin-left: 5vw;
+    margin-left: 5vh;
+    margin-right: 5vh;
     margin-bottom: 5vh;
     background-image: url(https://images.unsplash.com/photo-1486639107311-064febaff1c5?ixlib=rb-0.3.5&s=f669fca4f87a6d8826d21c895cc565ce&auto=format&fit=crop&w=3304&q=80);
     background-repeat: no-repeat;
