@@ -38,6 +38,10 @@ h2 {
     padding-right: 5vw;
 }
 
+h2.adjust{
+     padding-top: 10vh;
+}
+
 p.dates {
     border: 1px solid grey;
     padding: 25px;
@@ -79,6 +83,12 @@ svg{
     fill: #424242;
     margin: 10px;
 }
+
+svg.icons{
+    width: 20px;
+    height: 20px;
+}
+
 .star {
     visibility: hidden;
 }
@@ -114,10 +124,16 @@ h1.location{text-align: center;}
         font-family: 'Playfair Display', serif;
         font-size: 80px;
     }
-
     h2 {
         font-family: 'Cormorant Garamond', serif;
         font-size: 25px;
+    }
+    h2.adjust{
+         padding-top: 20vh;
+    }
+    svg.icons{
+        width: 30px;
+        height: 30px;
     }
 }
 
