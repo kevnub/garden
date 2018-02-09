@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500|Open+Sans|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Open+Sans|Playfair+Display');
 
 .fullp {
     height: 90vh;
@@ -28,7 +28,10 @@ h1.ticket {
     font-size: 40px;
     color: #212121;
     text-align: center;
-    font-weight: 600;
+}
+
+h1.location {
+    text-align: center;
 }
 
 h2 {
@@ -67,10 +70,6 @@ p.cal {
     margin: 0px;
 }
 
-td {
-    width: 50%;
-}
-
 img {
     height: 100%;
     width: 100%;
@@ -87,10 +86,6 @@ svg{
 svg.icons{
     width: 25px;
     height: 25px;
-}
-
-.star {
-    visibility: hidden;
 }
 
 .fadeIn {
@@ -111,14 +106,17 @@ a.nave {
     align-content: center;
 }
 
+td {width: 50%;}
 .bwidth{width: 100%;}
-h1.location{text-align: center;}
+.star {visibility: hidden;}
+.marg{margin-top: -35px;}
 
 @media (min-width: 768px){
     img{width: 80%;}
     .sponsors{padding: 10vh;}
     .checkout {padding-top:0px;}
     .bwidth{width: 200px;}
+    .marg{margin-top: -20px;}
     h1.location{text-align: left;}
     h1 {
         font-family: 'Playfair Display', serif;
