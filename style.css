@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Open+Sans|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500|Open+Sans|Playfair+Display');
 
 .fullp {
     height: 90vh;
@@ -28,6 +28,7 @@ h1.ticket {
     font-size: 40px;
     color: #212121;
     text-align: center;
+    font-weight: 500;
 }
 
 h1.location {
@@ -123,6 +124,9 @@ td {width: 50%;}
     h1 {
         font-family: 'Playfair Display', serif;
         font-size: 80px;
+    }
+    h1.ticket{
+        font-weight: 500;
     }
     h2 {
         font-family: 'Cormorant Garamond', serif;
