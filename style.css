@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Open+Sans|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500|Open+Sans|Playfair+Display');
 
 .fullp {
     height: 90vh;
@@ -24,10 +24,11 @@ h1 {
 }
 
 h1.ticket {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 40px;
     color: #212121;
     text-align: center;
+    font-weight: 600;
 }
 
 h2 {
@@ -74,6 +75,10 @@ img {
     margin:auto;
 }
 
+svg{
+    fill: #424242;
+    margin: 10px;
+}
 .star {
     visibility: hidden;
 }
@@ -84,10 +89,27 @@ img {
     visibility: visible !important;
 }
 
-@media (min-width: 768px){
-    .sponsors{padding: 10vh;}
-    img{width: 80%;}
+a.nave {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 10px;
+    font-size: 16px;
+}
 
+.checkout {
+    padding-top: 30px;
+    align-content: center;
+}
+
+.bwidth{width: 100%;}
+h1.location{text-align: center;}
+
+@media (min-width: 768px){
+    img{width: 80%;}
+    .sponsors{padding: 10vh;}
+    .checkout {padding-top:0px;}
+    .bwidth{width: 200px;}
+    h1.location{text-align: left;}
     h1 {
         font-family: 'Playfair Display', serif;
         font-size: 80px;
